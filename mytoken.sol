@@ -743,9 +743,6 @@ abstract contract ERC20Burnable is Context, ERC20 {
 pragma solidity ^0.8.9;
 
 
-
-
-
 contract MyToken is ERC20, ERC20Burnable, Pausable, Ownable {
     constructor() ERC20("MyToken", "MTK") {}
 
